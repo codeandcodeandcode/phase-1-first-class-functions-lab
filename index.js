@@ -13,3 +13,9 @@ let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 const createFareMultiplier = (num)=>{
     return function(num2){return num2 * num};
 }
+
+const fareDoubler = (num) =>{
+    let db = createFareMultiplier(2);
+    return db(num);
+}
+
