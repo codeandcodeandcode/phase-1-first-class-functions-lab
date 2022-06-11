@@ -19,3 +19,7 @@ const fareDoubler = (num) =>{
     return db(num);
 }
 
+const fareTripler = (num) =>{
+    let db = createFareMultiplier(3);
+    return db(num);
+}
