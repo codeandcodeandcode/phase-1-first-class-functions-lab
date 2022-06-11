@@ -7,3 +7,5 @@ const returnFirstTwoDrivers = (arr)=> {
 const returnLastTwoDrivers = (arr)=> {
     return  `${arr[arr.length - 2]}  ${arr[arr.length - 1]}`;
 }
+
+let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
