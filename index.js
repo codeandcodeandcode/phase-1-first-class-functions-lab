@@ -23,3 +23,7 @@ const fareTripler = (num) =>{
     let db = createFareMultiplier(3);
     return db(num);
 }
+
+const selectDifferentDrivers = (arr, ff)=>{
+    return ff(arr);
+    };
