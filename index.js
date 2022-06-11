@@ -9,3 +9,7 @@ const returnLastTwoDrivers = (arr)=> {
 }
 
 let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
+
+const createFareMultiplier = (num)=>{
+    return function(num2){return num2 * num};
+}
